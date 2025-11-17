@@ -250,6 +250,7 @@ public:
       if (!valid_ranges[idx])
       {
         output_scan.ranges[idx] = std::numeric_limits<float>::quiet_NaN();
+        output_scan.intensities[idx] = -1.0;
       }
     }
 
